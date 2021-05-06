@@ -1,5 +1,5 @@
 ## Chat server through web sockets
-First attempt at a chat server using STOMP client.
+First attempt at a chat server using STOMP.
 #### Notes on application design
 * You can check out the database at http://localhost:8080/h2-console
 * Spring exception handler was not implemented, as I did not see a use case for user defined errors for these use cases. Blank responses are clear enough for receiver of data.
